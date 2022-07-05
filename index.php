@@ -21,13 +21,51 @@ require_once 'admin/backend/config.php';
 
     <?php require_once 'header.php'; ?>
     <div class="container content">
-        <aside>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia modi dolore magnam! Iste libero voluptatum autem, sapiente ullam earum nostrum sed magnam vel laboriosam quibusdam, officia, esse vitae dignissimos nulla?
-        </aside>
+
         <main>
-            <!-- hier komen de attractiekaartjes -->
-        </main>
-    </div>
+        <div class="menu">
+
+            </div>
+            <div class="menu1">
+                <form action="" method="GET">
+                    <select name="afdeling">
+                        <option value="">-attractie-</option>
+                        <option value="personeel">personeel</option>
+                        <option value="horeca">horeca</option>
+                        <option value="techniek">techniek</option>
+                        <option value="inkoop">inkoop</option>
+                        <option value="klantenservice">klantenservice</option>
+                        <option value="groen">groen</option>
+                    </select>
+                </form>
+            </div>
+            <div class="menu2">
+                <form action="" method="GET">
+                    <select name="afdeling">
+                        <option value="">-hoeveel personen-</option>
+                        <option value="personeel">1</option>
+                        <option value="horeca">2</option>
+                        <option value="techniek">3</option>
+                        <option value="inkoop">4</option>
+                        <option value="klantenservice">5</option>
+                        <option value="groen">6</option>
+                    </select>
+                </form>
+            </div>
+            <div class="menu3">
+                <form action="" method="GET">
+                    <select name="afdeling">
+                        <option value="">-fast pass-</option>
+                        <option value="personeel">ja</option>
+                        <option value="horeca">nee</option>
+                    </select>
+                </form>
+            </div>
+          
+            
+        </div>
+
+    </main>
 
 </body>
 
